@@ -164,6 +164,8 @@ export default function ResumeDesigned() {
             <Section title="Certifications & Leadership">
               <ul className="text-sm list-disc ml-5 space-y-1">
                 <li><strong>AWS Certified Solutions Architect</strong> — Amazon Web Services</li>
+                <li><strong>Deep Learning Specialization</strong> — Coursera</li>
+                <li><strong>IBM Product Manager Professional Certificate</strong> — Coursera</li>
                 <li>Vice President — FND Hope International (Mar 2024–Present)</li>
               </ul>
             </Section>
