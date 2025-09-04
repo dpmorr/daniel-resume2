@@ -64,7 +64,7 @@ export default function ResumeDesigned() {
           </div>
           <div className="col-span-4">
             <div className="relative mx-auto h-36 w-36 overflow-hidden rounded-2xl border-4 border-sky-200 shadow-md bg-gradient-to-tr from-rose-100 to-sky-100">
-              <img src="/profile.jpg?v=2" alt="Daniel Morrissy" className="h-full w-full object-cover" />
+              <img src="/profile.png?v=2" alt="Daniel Morrissy" className="h-full w-full object-cover" />
             </div>
           </div>
         </div>
