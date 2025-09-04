@@ -54,6 +54,9 @@ export default function ResumeDesigned() {
               <div className="flex items-center gap-2"><span>📍</span><span>Sydney, NSW</span></div>
               <div className="flex items-center gap-2"><span>✉️</span><span>email@domain.com</span></div>
               <div className="flex items-center gap-2"><span>🔗</span><span>linkedin.com/in/danielmorrissy</span></div>
+              <a href="https://dpmorr.github.io/Daniel-Portfolio/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-rose-500 hover:text-rose-600 font-medium">
+                <span>🌐</span><span>Full Portfolio</span>
+              </a>
               <button onClick={() => window.print()} className="ml-auto rounded-lg bg-rose-500 px-3 py-1.5 text-white text-xs shadow hover:bg-rose-600 print:hidden">
                 Print / Save PDF
               </button>
@@ -61,7 +64,7 @@ export default function ResumeDesigned() {
           </div>
           <div className="col-span-4">
             <div className="relative mx-auto h-36 w-36 overflow-hidden rounded-2xl border-4 border-sky-200 shadow-md bg-gradient-to-tr from-rose-100 to-sky-100">
-              <img src="/profile.jpg" alt="Daniel Morrissy" className="h-full w-full object-cover" />
+              <img src="/profile.jpg?v=2" alt="Daniel Morrissy" className="h-full w-full object-cover" />
             </div>
           </div>
         </div>
@@ -139,6 +142,12 @@ export default function ResumeDesigned() {
 
             <Section title="Selected Projects">
               <div className="text-sm space-y-3">
+                <div className="mb-3 p-2 bg-sky-50 rounded-lg border border-sky-200">
+                  <span className="text-xs text-sky-700">💡 View all projects at: </span>
+                  <a href="https://dpmorr.github.io/Daniel-Portfolio/" target="_blank" rel="noopener noreferrer" className="text-xs text-sky-600 hover:text-sky-800 underline font-medium">
+                    dpmorr.github.io/Daniel-Portfolio
+                  </a>
+                </div>
                 <div>
                   <div className="font-semibold">Enterprise IoT, Vision & Analytics Platform — Compliro</div>
                   <div>Distributed camera-sensor network with cloud ingestion, ML inference, and analytics for waste tracking & compliance.</div>
